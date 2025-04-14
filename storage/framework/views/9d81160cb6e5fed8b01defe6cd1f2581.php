@@ -1,0 +1,1 @@
+<img src="<?php echo e(asset('images/marianna-present.png')); ?>" alt="Logo" class="h-24 w-auto"><?php /**PATH C:\Users\teme3\OneDrive\Herd\marianna-present\resources\views\components\application-mark.blade.php ENDPATH**/ ?>
