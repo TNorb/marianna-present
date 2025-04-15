@@ -216,10 +216,10 @@ class AdminController extends Controller
             return redirect()->route('/')->with('error', 'You are not autorized.');
         }
 
-        if ($user->status === 1) {
+        if ($user->status == 1) {
             $user->status = 0;
         }
-        elseif ($user->status === 0) {
+        elseif ($user->status == 0) {
             $user->status = 1;
         }
         else {
